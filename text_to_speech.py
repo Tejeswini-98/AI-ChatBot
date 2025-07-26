@@ -8,7 +8,7 @@ import platform
 
 
 def text_to_speech_with_elevenlabs(input_text, output_filepath):
-    client=ElevenLabs(api_key='sk_a32715c8f079281d5dbdccaa54ebe3e62c89588423e57199')
+    client=ElevenLabs(api_key='your Api Key')
     audio=client.text_to_speech.convert(
         text= input_text,
         voice_id="ZF6FPAbjXT4488VcRRnw", #"JBFqnCBsd6RMkjVDRZzb",
